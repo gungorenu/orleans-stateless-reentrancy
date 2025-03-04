@@ -1,0 +1,43 @@
+<Project>
+	<PropertyGroup>
+		<ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+	</PropertyGroup>
+	<ItemGroup>
+		<!-- Microsoft stuff 8.0.X -->
+		<PackageVersion Include="Microsoft.Extensions.Hosting" Version="8.0.0" />
+		<PackageVersion Include="Microsoft.Extensions.Hosting.Abstractions" Version="8.0.0" />
+		<PackageVersion Include="Microsoft.Extensions.Logging.Console" Version="8.0.0" />
+		<PackageVersion Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.0" />
+		<PackageVersion Include="System.Text.Json" Version="9.0.2" />
+
+		<!-- Serilog -->
+		<PackageVersion Include="Serilog" Version="3.1.1" />
+		<PackageVersion Include="Serilog.AspNetCore" Version="8.0.1" />
+		<PackageVersion Include="Serilog.Extensions.Hosting" Version="8.0.0" />
+		<PackageVersion Include="Serilog.Settings.AppSettings" Version="2.2.2" />
+		<PackageVersion Include="Serilog.Expressions" Version="4.0.0" />
+		<PackageVersion Include="Serilog.Settings.Configuration" Version="8.0.0" />
+		<PackageVersion Include="Serilog.Sinks.Console" Version="5.0.1" />
+
+		<!-- Orleans 8.1.0 -->
+		<PackageVersion Include="Microsoft.Orleans.Server" Version="8.1.0" />
+		<PackageVersion Include="Microsoft.Orleans.Client" Version="8.1.0" />
+		<PackageVersion Include="Microsoft.Orleans.Sdk" Version="8.1.0" />
+		<PackageVersion Include="Microsoft.Orleans.Clustering.Adonet" Version="8.1.0" />
+		<PackageVersion Include="Microsoft.Orleans.Runtime" Version="8.1.0" />
+		<PackageVersion Include="Microsoft.Orleans.Persistence.AdoNet" Version="8.1.0" />
+		<PackageVersion Include="Microsoft.Orleans.Reminders.AdoNet" Version="8.1.0" />
+		<PackageVersion Include="Microsoft.Data.SqlClient" Version="5.2.1" />
+		<PackageVersion Include="Microsoft.Orleans.Core.Abstractions" Version="8.1.0" />
+
+		<!-- EF 9.0.2 -->
+		<PackageVersion Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.2" />
+		<PackageVersion Include="Microsoft.EntityFrameworkCore" Version="9.0.2" />
+		<PackageVersion Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.2" />
+		<PackageVersion Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.2" />
+
+		<!-- Vulnerabilities -->
+		<PackageVersion Include="Azure.Identity" Version="1.12.0" />
+		<PackageVersion Include="Microsoft.Identity.Client" Version="4.61.3" />
+	</ItemGroup>
+</Project>
